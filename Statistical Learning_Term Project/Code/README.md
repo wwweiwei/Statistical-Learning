@@ -34,7 +34,7 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
     
   * Conclusion
     * Recall → F1 → AUC
-    * 大部分的模型:有進行 model selection 的預測結果 (LASSO或Adaptive LASSO) 通常比直接將所有變數納入考慮的模型來得好。
+    * 大部分的模型: 有進行 model selection 的預測結果 (LASSO或Adaptive LASSO) 通常比直接將所有變數納入考慮的模型來得好
     * 從vip()函數可發現,對結果影響最大的變數是 僱員人數 (nr.employed) 及 消費者信心指數(cons.conf.idx),而這兩個變數有都有在LASSO及adaptive LASSO所選取的變數中 
-    * 線性模型:使用 Adaptive LASSO 所選變數建立的 Naïve Bayes 模型表現最好
-    * tree模型:XGBoost 建立的模型表現最好
+    * 線性模型: 使用 Adaptive LASSO 所選變數建立的 Naïve Bayes 模型表現最好
+    * tree模型: XGBoost 建立的模型表現最好
