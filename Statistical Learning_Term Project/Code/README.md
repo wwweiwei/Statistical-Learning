@@ -2,9 +2,9 @@
 ### Deposit Subscription Prediction
 
 * Dataset: UCI Machine Learning Repository
-The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
-* numbers of data: 41888 
-* columns: 21
+  * The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
+  * numbers of data: 41888 
+  * columns: 21
 
 * Purpose:
   * The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
