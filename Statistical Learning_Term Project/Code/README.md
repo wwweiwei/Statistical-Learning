@@ -1,10 +1,10 @@
 ### Statistical Learning Term Project
 ### Deposit Subscription Prediction
 
-* Dataset:UCI Machine Learning Repository
+* Dataset: UCI Machine Learning Repository
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution.
-* numbers of data:41888 
-* numbers of data columns:21
+* numbers of data: 41888 
+* columns: 21
 
 * Purpose:
   * The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
@@ -12,8 +12,8 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
   
 * Methods: 
   * Preprocessing: 
-    * MICE:用 CART 的方法模擬遺漏值後，再進行填補
-    * SMOTE:使用 Synthesized Minority Oversampling Technique (SMOTE) 增加Yes的資料，原理是在少數樣本位置近的地方，人工合成一些樣本
+    * MICE: 用 CART 的方法模擬遺漏值後,再進行填補
+    * SMOTE: 使用 Synthesized Minority Oversampling Technique (SMOTE) 增加Yes的資料,原理是在少數樣本位置近的地方,人工合成一些樣本
   * Model:
     * Adaptive LASSO
     * Simple linear regression
